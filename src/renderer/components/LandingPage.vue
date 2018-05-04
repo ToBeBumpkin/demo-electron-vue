@@ -1,5 +1,7 @@
 <template>
   <div id="wrapper">
+    <el-button @click="$router.push('/')">home</el-button>
+    <el-button @click="$router.push('/landing')">landing</el-button>
     <img id="logo" src="~@/assets/logo.png" alt="electron-vue">
     <main>
       <div class="left-side">
